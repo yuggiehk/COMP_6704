@@ -1,0 +1,115 @@
+2025-11-18 20:21:38,761 - INFO - Logging initialized for RMSProp optimizer
+2025-11-18 20:21:38,761 - INFO - Log file: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_RMSProp_20251118_202138.log
+2025-11-18 20:21:38,761 - INFO - Starting training process with RMSProp optimizer
+2025-11-18 20:21:38,761 - INFO - Log file successfully created at specified location: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_RMSProp_20251118_202138.log
+2025-11-18 20:21:38,829 - INFO - Found 8993 valid image-mask pairs
+2025-11-18 20:21:38,837 - INFO - Found 1126 valid image-mask pairs
+2025-11-18 20:21:38,838 - INFO - Training samples: 8993
+2025-11-18 20:21:38,838 - INFO - Validation samples: 1126
+2025-11-18 20:21:38,838 - INFO - Batch size: 8
+2025-11-18 20:21:38,838 - INFO - 
+============================================================
+2025-11-18 20:21:38,838 - INFO - Training with RMSProp optimizer (Root Mean Square Propagation)
+2025-11-18 20:21:38,838 - INFO - ============================================================
+2025-11-18 20:21:39,198 - INFO - Using device: cuda
+2025-11-18 20:21:39,198 - INFO - Training with RMSProp optimizer (Root Mean Square Propagation)
+2025-11-18 20:21:47,201 - INFO - Starting training with RMSProp optimizer for 50 epochs
+2025-11-18 20:21:47,201 - INFO - Learning rate: 0.001, Alpha: 0.99, Weight decay: 1e-4
+2025-11-18 20:21:47,201 - INFO - Batch size: 8
+2025-11-18 20:21:47,201 - INFO - RMSProp uses moving average of squared gradients to adapt learning rates
+2025-11-18 20:21:47,201 - INFO - Alpha parameter controls the smoothing factor for gradient history
+2025-11-18 20:36:23,986 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 20:36:23,986 - INFO - [RMSProp] Best Val IoU: 0.1968, Val Loss: 0.5754
+2025-11-18 20:36:23,986 - INFO - [RMSProp] Epoch 1/50: Train Loss: 0.5948, Val Loss: 0.5754, Val IoU: 0.1968, Val Acc: 0.8500
+2025-11-18 20:50:20,965 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 20:50:20,966 - INFO - [RMSProp] Best Val IoU: 0.2047, Val Loss: 0.6031
+2025-11-18 20:50:20,966 - INFO - [RMSProp] Epoch 2/50: Train Loss: 0.5405, Val Loss: 0.6031, Val IoU: 0.2047, Val Acc: 0.8543
+2025-11-18 21:04:14,725 - INFO - [RMSProp] Epoch 3/50: Train Loss: 0.4999, Val Loss: 0.7820, Val IoU: 0.1707, Val Acc: 0.7791
+2025-11-18 21:18:04,059 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 21:18:04,059 - INFO - [RMSProp] Best Val IoU: 0.2189, Val Loss: 0.6499
+2025-11-18 21:18:04,059 - INFO - [RMSProp] Epoch 4/50: Train Loss: 0.4807, Val Loss: 0.6499, Val IoU: 0.2189, Val Acc: 0.8151
+2025-11-18 21:31:56,454 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 21:31:56,454 - INFO - [RMSProp] Best Val IoU: 0.2892, Val Loss: 0.4745
+2025-11-18 21:31:56,454 - INFO - [RMSProp] Epoch 5/50: Train Loss: 0.4687, Val Loss: 0.4745, Val IoU: 0.2892, Val Acc: 0.8752
+2025-11-18 21:45:44,976 - INFO - [RMSProp] Epoch 6/50: Train Loss: 0.4614, Val Loss: 0.7794, Val IoU: 0.1726, Val Acc: 0.7663
+2025-11-18 21:59:36,317 - INFO - [RMSProp] Epoch 7/50: Train Loss: 0.4565, Val Loss: 0.5617, Val IoU: 0.2257, Val Acc: 0.8366
+2025-11-18 22:13:27,272 - INFO - [RMSProp] Epoch 8/50: Train Loss: 0.4507, Val Loss: 0.7196, Val IoU: 0.2248, Val Acc: 0.7700
+2025-11-18 22:27:22,479 - INFO - [RMSProp] Epoch 9/50: Train Loss: 0.4470, Val Loss: 0.5372, Val IoU: 0.2571, Val Acc: 0.8441
+2025-11-18 22:41:14,483 - INFO - [RMSProp] Epoch 10/50: Train Loss: 0.4440, Val Loss: 0.5240, Val IoU: 0.2649, Val Acc: 0.8542
+2025-11-18 22:55:08,745 - INFO - [RMSProp] Epoch 11/50: Train Loss: 0.4417, Val Loss: 0.9571, Val IoU: 0.2124, Val Acc: 0.7393
+2025-11-18 23:08:51,338 - INFO - [RMSProp] Epoch 12/50: Train Loss: 0.4270, Val Loss: 0.5014, Val IoU: 0.2734, Val Acc: 0.8756
+2025-11-18 23:22:37,052 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 23:22:37,053 - INFO - [RMSProp] Best Val IoU: 0.3111, Val Loss: 0.4358
+2025-11-18 23:22:37,053 - INFO - [RMSProp] Epoch 13/50: Train Loss: 0.4237, Val Loss: 0.4358, Val IoU: 0.3111, Val Acc: 0.8855
+2025-11-18 23:36:18,724 - INFO - [RMSProp] Epoch 14/50: Train Loss: 0.4219, Val Loss: 0.4564, Val IoU: 0.3003, Val Acc: 0.8779
+2025-11-18 23:50:02,211 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-18 23:50:02,211 - INFO - [RMSProp] Best Val IoU: 0.3125, Val Loss: 0.4409
+2025-11-18 23:50:02,211 - INFO - [RMSProp] Epoch 15/50: Train Loss: 0.4210, Val Loss: 0.4409, Val IoU: 0.3125, Val Acc: 0.8821
+2025-11-19 00:03:44,106 - INFO - [RMSProp] Epoch 16/50: Train Loss: 0.4195, Val Loss: 0.4520, Val IoU: 0.3095, Val Acc: 0.8800
+2025-11-19 00:17:26,156 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 00:17:26,157 - INFO - [RMSProp] Best Val IoU: 0.3197, Val Loss: 0.4239
+2025-11-19 00:17:26,157 - INFO - [RMSProp] Epoch 17/50: Train Loss: 0.4186, Val Loss: 0.4239, Val IoU: 0.3197, Val Acc: 0.8882
+2025-11-19 00:31:09,466 - INFO - [RMSProp] Epoch 18/50: Train Loss: 0.4179, Val Loss: 0.4350, Val IoU: 0.3184, Val Acc: 0.8852
+2025-11-19 00:44:49,394 - INFO - [RMSProp] Epoch 19/50: Train Loss: 0.4176, Val Loss: 0.4557, Val IoU: 0.2908, Val Acc: 0.8770
+2025-11-19 00:58:32,973 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 00:58:32,974 - INFO - [RMSProp] Best Val IoU: 0.3199, Val Loss: 0.4451
+2025-11-19 00:58:32,974 - INFO - [RMSProp] Epoch 20/50: Train Loss: 0.4162, Val Loss: 0.4451, Val IoU: 0.3199, Val Acc: 0.8800
+2025-11-19 01:12:14,532 - INFO - [RMSProp] Epoch 21/50: Train Loss: 0.4153, Val Loss: 0.4914, Val IoU: 0.2811, Val Acc: 0.8654
+2025-11-19 01:25:56,602 - INFO - [RMSProp] Epoch 22/50: Train Loss: 0.4156, Val Loss: 0.5984, Val IoU: 0.2684, Val Acc: 0.8284
+2025-11-19 01:39:36,780 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 01:39:36,780 - INFO - [RMSProp] Best Val IoU: 0.3238, Val Loss: 0.4241
+2025-11-19 01:39:36,780 - INFO - [RMSProp] Epoch 23/50: Train Loss: 0.4141, Val Loss: 0.4241, Val IoU: 0.3238, Val Acc: 0.8879
+2025-11-19 01:53:15,246 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 01:53:15,246 - INFO - [RMSProp] Best Val IoU: 0.3303, Val Loss: 0.4115
+2025-11-19 01:53:15,246 - INFO - [RMSProp] Epoch 24/50: Train Loss: 0.4048, Val Loss: 0.4115, Val IoU: 0.3303, Val Acc: 0.8909
+2025-11-19 02:06:52,496 - INFO - [RMSProp] Epoch 25/50: Train Loss: 0.4033, Val Loss: 0.4188, Val IoU: 0.3295, Val Acc: 0.8884
+2025-11-19 02:20:29,651 - INFO - [RMSProp] Epoch 26/50: Train Loss: 0.4027, Val Loss: 0.4650, Val IoU: 0.2759, Val Acc: 0.8771
+2025-11-19 02:34:07,081 - INFO - [RMSProp] Epoch 27/50: Train Loss: 0.4024, Val Loss: 0.4127, Val IoU: 0.3275, Val Acc: 0.8906
+2025-11-19 02:47:45,118 - INFO - [RMSProp] Epoch 28/50: Train Loss: 0.4025, Val Loss: 0.4183, Val IoU: 0.3212, Val Acc: 0.8891
+2025-11-19 03:01:21,959 - INFO - [RMSProp] Epoch 29/50: Train Loss: 0.4012, Val Loss: 0.4134, Val IoU: 0.3291, Val Acc: 0.8908
+2025-11-19 03:15:02,083 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 03:15:02,083 - INFO - [RMSProp] Best Val IoU: 0.3322, Val Loss: 0.4085
+2025-11-19 03:15:02,083 - INFO - [RMSProp] Epoch 30/50: Train Loss: 0.4010, Val Loss: 0.4085, Val IoU: 0.3322, Val Acc: 0.8913
+2025-11-19 03:28:41,400 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 03:28:41,401 - INFO - [RMSProp] Best Val IoU: 0.3361, Val Loss: 0.4159
+2025-11-19 03:28:41,401 - INFO - [RMSProp] Epoch 31/50: Train Loss: 0.4010, Val Loss: 0.4159, Val IoU: 0.3361, Val Acc: 0.8904
+2025-11-19 03:42:19,115 - INFO - [RMSProp] Epoch 32/50: Train Loss: 0.4005, Val Loss: 0.4275, Val IoU: 0.3257, Val Acc: 0.8871
+2025-11-19 03:55:54,353 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 03:55:54,353 - INFO - [RMSProp] Best Val IoU: 0.3388, Val Loss: 0.4142
+2025-11-19 03:55:54,353 - INFO - [RMSProp] Epoch 33/50: Train Loss: 0.4003, Val Loss: 0.4142, Val IoU: 0.3388, Val Acc: 0.8905
+2025-11-19 04:09:31,510 - INFO - [RMSProp] Epoch 34/50: Train Loss: 0.3996, Val Loss: 0.4274, Val IoU: 0.3239, Val Acc: 0.8874
+2025-11-19 04:23:06,665 - INFO - [RMSProp] Epoch 35/50: Train Loss: 0.3992, Val Loss: 0.4147, Val IoU: 0.3317, Val Acc: 0.8895
+2025-11-19 04:36:41,995 - INFO - [RMSProp] Epoch 36/50: Train Loss: 0.3994, Val Loss: 0.4496, Val IoU: 0.3253, Val Acc: 0.8801
+2025-11-19 04:50:21,926 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 04:50:21,927 - INFO - [RMSProp] Best Val IoU: 0.3399, Val Loss: 0.4055
+2025-11-19 04:50:21,927 - INFO - [RMSProp] Epoch 37/50: Train Loss: 0.3930, Val Loss: 0.4055, Val IoU: 0.3399, Val Acc: 0.8923
+2025-11-19 05:04:02,700 - INFO - [RMSProp] Epoch 38/50: Train Loss: 0.3926, Val Loss: 0.4026, Val IoU: 0.3378, Val Acc: 0.8926
+2025-11-19 05:17:09,744 - INFO - [RMSProp] Epoch 39/50: Train Loss: 0.3918, Val Loss: 0.4056, Val IoU: 0.3392, Val Acc: 0.8919
+2025-11-19 05:28:40,432 - INFO - [RMSProp] Epoch 40/50: Train Loss: 0.3914, Val Loss: 0.4100, Val IoU: 0.3307, Val Acc: 0.8904
+2025-11-19 05:40:09,875 - INFO - [RMSProp] Epoch 41/50: Train Loss: 0.3912, Val Loss: 0.4107, Val IoU: 0.3355, Val Acc: 0.8911
+2025-11-19 05:51:41,835 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 05:51:41,835 - INFO - [RMSProp] Best Val IoU: 0.3432, Val Loss: 0.4066
+2025-11-19 05:51:41,835 - INFO - [RMSProp] Epoch 42/50: Train Loss: 0.3905, Val Loss: 0.4066, Val IoU: 0.3432, Val Acc: 0.8923
+2025-11-19 06:01:24,657 - INFO - [RMSProp] Epoch 43/50: Train Loss: 0.3909, Val Loss: 0.4025, Val IoU: 0.3385, Val Acc: 0.8930
+2025-11-19 06:08:35,087 - INFO - [RMSProp] Epoch 44/50: Train Loss: 0.3908, Val Loss: 0.4046, Val IoU: 0.3373, Val Acc: 0.8924
+2025-11-19 06:15:41,674 - INFO - [RMSProp] Epoch 45/50: Train Loss: 0.3904, Val Loss: 0.4088, Val IoU: 0.3350, Val Acc: 0.8909
+2025-11-19 06:22:47,944 - INFO - [RMSProp] Epoch 46/50: Train Loss: 0.3903, Val Loss: 0.4225, Val IoU: 0.3084, Val Acc: 0.8850
+2025-11-19 06:29:56,351 - INFO - [RMSProp] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_RMSProp/best_model.pth
+2025-11-19 06:29:56,351 - INFO - [RMSProp] Best Val IoU: 0.3451, Val Loss: 0.3995
+2025-11-19 06:29:56,351 - INFO - [RMSProp] Epoch 47/50: Train Loss: 0.3902, Val Loss: 0.3995, Val IoU: 0.3451, Val Acc: 0.8940
+2025-11-19 06:37:02,547 - INFO - [RMSProp] Epoch 48/50: Train Loss: 0.3902, Val Loss: 0.4101, Val IoU: 0.3329, Val Acc: 0.8916
+2025-11-19 06:44:06,718 - INFO - [RMSProp] Epoch 49/50: Train Loss: 0.3899, Val Loss: 0.4060, Val IoU: 0.3332, Val Acc: 0.8923
+2025-11-19 06:51:14,432 - INFO - [RMSProp] Epoch 50/50: Train Loss: 0.3897, Val Loss: 0.4003, Val IoU: 0.3391, Val Acc: 0.8940
+2025-11-19 06:51:14,432 - INFO - [RMSProp] Training completed. Best validation IoU: 0.3451
+2025-11-19 06:51:16,827 - INFO - Saved training curves: /mnt/nvme1/suyuejiao/egohos_split_data/image/rmsprop_training_curves.png
+2025-11-19 06:51:16,829 - INFO - Saved training results to: /mnt/nvme1/suyuejiao/egohos_split_data/image/rmsprop_training_results.json
+2025-11-19 06:51:16,829 - INFO - 
+================================================================================
+2025-11-19 06:51:16,830 - INFO - Final Training Results (RMSProp Optimizer):
+2025-11-19 06:51:16,830 - INFO - ================================================================================
+2025-11-19 06:51:16,830 - INFO - Final Validation IoU: 0.3391
+2025-11-19 06:51:16,830 - INFO - Final Validation Accuracy: 0.8940
+2025-11-19 06:51:16,830 - INFO - Final Validation Loss: 0.4003
+2025-11-19 06:51:16,830 - INFO - ================================================================================
+2025-11-19 06:51:16,830 - INFO - 
+Training with RMSProp optimizer completed! All results saved.

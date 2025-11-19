@@ -1,0 +1,114 @@
+2025-11-18 20:10:03,469 - INFO - Logging initialized for NAG optimizer
+2025-11-18 20:10:03,469 - INFO - Log file: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_NAG_20251118_201003.log
+2025-11-18 20:10:03,469 - INFO - Starting training process with NAG optimizer
+2025-11-18 20:10:03,469 - INFO - Log file successfully created at specified location: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_NAG_20251118_201003.log
+2025-11-18 20:10:03,530 - INFO - Found 8993 valid image-mask pairs
+2025-11-18 20:10:03,537 - INFO - Found 1126 valid image-mask pairs
+2025-11-18 20:10:03,538 - INFO - Training samples: 8993
+2025-11-18 20:10:03,538 - INFO - Validation samples: 1126
+2025-11-18 20:10:03,538 - INFO - Batch size: 8
+2025-11-18 20:10:03,538 - INFO - 
+============================================================
+2025-11-18 20:10:03,538 - INFO - Training with NAG optimizer (Nesterov Accelerated Gradient)
+2025-11-18 20:10:03,538 - INFO - ============================================================
+2025-11-18 20:10:03,787 - INFO - Using device: cuda
+2025-11-18 20:10:03,787 - INFO - Training with NAG optimizer (Nesterov Accelerated Gradient)
+2025-11-18 20:10:07,852 - INFO - Starting training with NAG optimizer for 50 epochs
+2025-11-18 20:10:07,852 - INFO - Learning rate: 0.001, Momentum: 0.9, Nesterov: True, Weight decay: 1e-4
+2025-11-18 20:10:07,852 - INFO - Batch size: 8
+2025-11-18 20:10:07,852 - INFO - NAG uses lookahead gradient calculation for better convergence
+2025-11-18 20:20:36,516 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 20:20:36,516 - INFO - [NAG] Best Val IoU: 0.2342, Val Loss: 0.5394
+2025-11-18 20:20:36,516 - INFO - [NAG] Epoch 1/50: Train Loss: 0.6056, Val Loss: 0.5394, Val IoU: 0.2342, Val Acc: 0.8611
+2025-11-18 20:34:37,661 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 20:34:37,661 - INFO - [NAG] Best Val IoU: 0.3117, Val Loss: 0.4579
+2025-11-18 20:34:37,661 - INFO - [NAG] Epoch 2/50: Train Loss: 0.4886, Val Loss: 0.4579, Val IoU: 0.3117, Val Acc: 0.8806
+2025-11-18 20:48:47,947 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 20:48:47,947 - INFO - [NAG] Best Val IoU: 0.3348, Val Loss: 0.4083
+2025-11-18 20:48:47,947 - INFO - [NAG] Epoch 3/50: Train Loss: 0.4223, Val Loss: 0.4083, Val IoU: 0.3348, Val Acc: 0.8921
+2025-11-18 21:02:59,142 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 21:02:59,142 - INFO - [NAG] Best Val IoU: 0.3436, Val Loss: 0.3853
+2025-11-18 21:02:59,142 - INFO - [NAG] Epoch 4/50: Train Loss: 0.3803, Val Loss: 0.3853, Val IoU: 0.3436, Val Acc: 0.8957
+2025-11-18 21:17:07,417 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 21:17:07,417 - INFO - [NAG] Best Val IoU: 0.3620, Val Loss: 0.3585
+2025-11-18 21:17:07,417 - INFO - [NAG] Epoch 5/50: Train Loss: 0.3512, Val Loss: 0.3585, Val IoU: 0.3620, Val Acc: 0.8993
+2025-11-18 21:31:14,535 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 21:31:14,536 - INFO - [NAG] Best Val IoU: 0.3752, Val Loss: 0.3357
+2025-11-18 21:31:14,536 - INFO - [NAG] Epoch 6/50: Train Loss: 0.3299, Val Loss: 0.3357, Val IoU: 0.3752, Val Acc: 0.9059
+2025-11-18 21:45:23,087 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 21:45:23,088 - INFO - [NAG] Best Val IoU: 0.3920, Val Loss: 0.3291
+2025-11-18 21:45:23,088 - INFO - [NAG] Epoch 7/50: Train Loss: 0.3116, Val Loss: 0.3291, Val IoU: 0.3920, Val Acc: 0.9072
+2025-11-18 21:59:31,624 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 21:59:31,624 - INFO - [NAG] Best Val IoU: 0.4112, Val Loss: 0.3072
+2025-11-18 21:59:31,624 - INFO - [NAG] Epoch 8/50: Train Loss: 0.2970, Val Loss: 0.3072, Val IoU: 0.4112, Val Acc: 0.9129
+2025-11-18 22:13:39,732 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 22:13:39,732 - INFO - [NAG] Best Val IoU: 0.4132, Val Loss: 0.3154
+2025-11-18 22:13:39,732 - INFO - [NAG] Epoch 9/50: Train Loss: 0.2827, Val Loss: 0.3154, Val IoU: 0.4132, Val Acc: 0.9095
+2025-11-18 22:27:50,723 - INFO - [NAG] Epoch 10/50: Train Loss: 0.2693, Val Loss: 0.3108, Val IoU: 0.4060, Val Acc: 0.9133
+2025-11-18 22:42:01,335 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 22:42:01,335 - INFO - [NAG] Best Val IoU: 0.4264, Val Loss: 0.3030
+2025-11-18 22:42:01,336 - INFO - [NAG] Epoch 11/50: Train Loss: 0.2564, Val Loss: 0.3030, Val IoU: 0.4264, Val Acc: 0.9152
+2025-11-18 22:56:10,720 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 22:56:10,720 - INFO - [NAG] Best Val IoU: 0.4360, Val Loss: 0.3122
+2025-11-18 22:56:10,720 - INFO - [NAG] Epoch 12/50: Train Loss: 0.2424, Val Loss: 0.3122, Val IoU: 0.4360, Val Acc: 0.9086
+2025-11-18 23:10:20,753 - INFO - [NAG] Epoch 13/50: Train Loss: 0.2295, Val Loss: 0.3365, Val IoU: 0.4346, Val Acc: 0.8964
+2025-11-18 23:24:34,463 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-18 23:24:34,463 - INFO - [NAG] Best Val IoU: 0.4477, Val Loss: 0.2983
+2025-11-18 23:24:34,463 - INFO - [NAG] Epoch 14/50: Train Loss: 0.2137, Val Loss: 0.2983, Val IoU: 0.4477, Val Acc: 0.9158
+2025-11-18 23:38:43,787 - INFO - [NAG] Epoch 15/50: Train Loss: 0.1973, Val Loss: 0.3260, Val IoU: 0.4308, Val Acc: 0.9113
+2025-11-18 23:52:53,586 - INFO - [NAG] Epoch 16/50: Train Loss: 0.1845, Val Loss: 0.3066, Val IoU: 0.4429, Val Acc: 0.9153
+2025-11-19 00:07:06,436 - INFO - [NAG] Epoch 17/50: Train Loss: 0.1683, Val Loss: 0.3311, Val IoU: 0.4420, Val Acc: 0.9097
+2025-11-19 00:21:16,226 - INFO - [NAG] Epoch 18/50: Train Loss: 0.1575, Val Loss: 0.3652, Val IoU: 0.4031, Val Acc: 0.8948
+2025-11-19 00:35:25,893 - INFO - [NAG] Epoch 19/50: Train Loss: 0.1457, Val Loss: 0.3574, Val IoU: 0.4424, Val Acc: 0.8940
+2025-11-19 00:49:37,112 - INFO - [NAG] Epoch 20/50: Train Loss: 0.1319, Val Loss: 0.4160, Val IoU: 0.4154, Val Acc: 0.8706
+2025-11-19 01:03:49,479 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-19 01:03:49,479 - INFO - [NAG] Best Val IoU: 0.4809, Val Loss: 0.3033
+2025-11-19 01:03:49,480 - INFO - [NAG] Epoch 21/50: Train Loss: 0.1036, Val Loss: 0.3033, Val IoU: 0.4809, Val Acc: 0.9211
+2025-11-19 01:17:59,684 - INFO - [NAG] Epoch 22/50: Train Loss: 0.0935, Val Loss: 0.3231, Val IoU: 0.4721, Val Acc: 0.9224
+2025-11-19 01:32:09,688 - INFO - [NAG] Epoch 23/50: Train Loss: 0.0869, Val Loss: 0.3299, Val IoU: 0.4739, Val Acc: 0.9169
+2025-11-19 01:46:22,333 - INFO - [NAG] Epoch 24/50: Train Loss: 0.0824, Val Loss: 0.3379, Val IoU: 0.4740, Val Acc: 0.9206
+2025-11-19 02:00:30,906 - INFO - [NAG] Epoch 25/50: Train Loss: 0.0772, Val Loss: 0.3367, Val IoU: 0.4734, Val Acc: 0.9214
+2025-11-19 02:14:38,359 - INFO - [NAG] Epoch 26/50: Train Loss: 0.0739, Val Loss: 0.3443, Val IoU: 0.4721, Val Acc: 0.9084
+2025-11-19 02:28:47,663 - INFO - [NAG] Epoch 27/50: Train Loss: 0.0665, Val Loss: 0.3606, Val IoU: 0.4682, Val Acc: 0.9226
+2025-11-19 02:42:57,264 - INFO - [NAG] Epoch 28/50: Train Loss: 0.0635, Val Loss: 0.3387, Val IoU: 0.4790, Val Acc: 0.9223
+2025-11-19 02:57:06,841 - INFO - [NAG] Epoch 29/50: Train Loss: 0.0611, Val Loss: 0.3404, Val IoU: 0.4786, Val Acc: 0.9203
+2025-11-19 03:11:16,677 - INFO - [NAG] Epoch 30/50: Train Loss: 0.0594, Val Loss: 0.3455, Val IoU: 0.4786, Val Acc: 0.9219
+2025-11-19 03:25:25,951 - INFO - [NAG] Epoch 31/50: Train Loss: 0.0585, Val Loss: 0.3462, Val IoU: 0.4801, Val Acc: 0.9203
+2025-11-19 03:39:35,253 - INFO - [NAG] Epoch 32/50: Train Loss: 0.0578, Val Loss: 0.3519, Val IoU: 0.4737, Val Acc: 0.9180
+2025-11-19 03:53:43,485 - INFO - [NAG] Epoch 33/50: Train Loss: 0.0550, Val Loss: 0.3509, Val IoU: 0.4785, Val Acc: 0.9223
+2025-11-19 04:07:53,803 - INFO - [NAG] Epoch 34/50: Train Loss: 0.0539, Val Loss: 0.3657, Val IoU: 0.4683, Val Acc: 0.9212
+2025-11-19 04:22:03,862 - INFO - [NAG] Epoch 35/50: Train Loss: 0.0531, Val Loss: 0.3540, Val IoU: 0.4784, Val Acc: 0.9224
+2025-11-19 04:36:10,942 - INFO - [NAG] Epoch 36/50: Train Loss: 0.0525, Val Loss: 0.3552, Val IoU: 0.4788, Val Acc: 0.9221
+2025-11-19 04:50:17,515 - INFO - [NAG] Epoch 37/50: Train Loss: 0.0517, Val Loss: 0.3515, Val IoU: 0.4800, Val Acc: 0.9211
+2025-11-19 05:04:26,373 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-19 05:04:26,373 - INFO - [NAG] Best Val IoU: 0.4813, Val Loss: 0.3545
+2025-11-19 05:04:26,373 - INFO - [NAG] Epoch 38/50: Train Loss: 0.0514, Val Loss: 0.3545, Val IoU: 0.4813, Val Acc: 0.9213
+2025-11-19 05:17:49,135 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-19 05:17:49,136 - INFO - [NAG] Best Val IoU: 0.4814, Val Loss: 0.3515
+2025-11-19 05:17:49,136 - INFO - [NAG] Epoch 39/50: Train Loss: 0.0502, Val Loss: 0.3515, Val IoU: 0.4814, Val Acc: 0.9213
+2025-11-19 05:29:48,545 - INFO - [NAG] Epoch 40/50: Train Loss: 0.0501, Val Loss: 0.3586, Val IoU: 0.4794, Val Acc: 0.9224
+2025-11-19 05:41:44,325 - INFO - [NAG] Epoch 41/50: Train Loss: 0.0495, Val Loss: 0.3601, Val IoU: 0.4800, Val Acc: 0.9223
+2025-11-19 05:53:41,934 - INFO - [NAG] Epoch 42/50: Train Loss: 0.0493, Val Loss: 0.3737, Val IoU: 0.4760, Val Acc: 0.9224
+2025-11-19 06:03:01,370 - INFO - [NAG] Epoch 43/50: Train Loss: 0.0492, Val Loss: 0.3667, Val IoU: 0.4786, Val Acc: 0.9222
+2025-11-19 06:10:25,602 - INFO - [NAG] Epoch 44/50: Train Loss: 0.0489, Val Loss: 0.3697, Val IoU: 0.4751, Val Acc: 0.9224
+2025-11-19 06:17:47,116 - INFO - [NAG] Epoch 45/50: Train Loss: 0.0487, Val Loss: 0.3644, Val IoU: 0.4775, Val Acc: 0.9220
+2025-11-19 06:25:09,512 - INFO - [NAG] Epoch 46/50: Train Loss: 0.0482, Val Loss: 0.3538, Val IoU: 0.4810, Val Acc: 0.9207
+2025-11-19 06:32:32,851 - INFO - [NAG] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_NAG/best_model.pth
+2025-11-19 06:32:32,852 - INFO - [NAG] Best Val IoU: 0.4815, Val Loss: 0.3589
+2025-11-19 06:32:32,852 - INFO - [NAG] Epoch 47/50: Train Loss: 0.0484, Val Loss: 0.3589, Val IoU: 0.4815, Val Acc: 0.9214
+2025-11-19 06:39:53,802 - INFO - [NAG] Epoch 48/50: Train Loss: 0.0484, Val Loss: 0.3677, Val IoU: 0.4791, Val Acc: 0.9220
+2025-11-19 06:47:17,394 - INFO - [NAG] Epoch 49/50: Train Loss: 0.0482, Val Loss: 0.3593, Val IoU: 0.4793, Val Acc: 0.9213
+2025-11-19 06:53:32,754 - INFO - [NAG] Epoch 50/50: Train Loss: 0.0479, Val Loss: 0.3640, Val IoU: 0.4800, Val Acc: 0.9221
+2025-11-19 06:53:32,754 - INFO - [NAG] Training completed. Best validation IoU: 0.4815
+2025-11-19 06:53:35,360 - INFO - Saved training curves: /mnt/nvme1/suyuejiao/egohos_split_data/image/nag_training_curves.png
+2025-11-19 06:53:35,360 - INFO - Saved training results to: /mnt/nvme1/suyuejiao/egohos_split_data/image/nag_training_results.json
+2025-11-19 06:53:35,360 - INFO - 
+================================================================================
+2025-11-19 06:53:35,361 - INFO - Final Training Results (NAG Optimizer):
+2025-11-19 06:53:35,361 - INFO - ================================================================================
+2025-11-19 06:53:35,361 - INFO - Final Validation IoU: 0.4800
+2025-11-19 06:53:35,361 - INFO - Final Validation Accuracy: 0.9221
+2025-11-19 06:53:35,361 - INFO - Final Validation Loss: 0.3640
+2025-11-19 06:53:35,361 - INFO - ================================================================================
+2025-11-19 06:53:35,361 - INFO - 
+Training with NAG optimizer completed! All results saved.

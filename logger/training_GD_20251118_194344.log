@@ -1,0 +1,160 @@
+2025-11-18 19:43:44,521 - INFO - Logging initialized for GD optimizer
+2025-11-18 19:43:44,521 - INFO - Log file: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_GD_20251118_194344.log
+2025-11-18 19:43:44,521 - INFO - Starting training process with GD optimizer
+2025-11-18 19:43:44,521 - INFO - Log file successfully created at specified location: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_GD_20251118_194344.log
+2025-11-18 19:43:44,576 - INFO - Found 8993 valid image-mask pairs
+2025-11-18 19:43:44,583 - INFO - Found 1126 valid image-mask pairs
+2025-11-18 19:43:44,584 - INFO - Training samples: 8993
+2025-11-18 19:43:44,584 - INFO - Validation samples: 1126
+2025-11-18 19:43:44,584 - INFO - 
+============================================================
+2025-11-18 19:43:44,584 - INFO - Training with GD optimizer (Full Batch Gradient Descent)
+2025-11-18 19:43:44,584 - INFO - ============================================================
+2025-11-18 19:43:44,823 - INFO - Using device: cuda
+2025-11-18 19:43:44,823 - INFO - Training with GD optimizer (Full Batch Gradient Descent)
+2025-11-18 19:43:46,744 - INFO - Starting training with GD optimizer for 50 epochs
+2025-11-18 19:43:46,744 - INFO - Learning rate: 0.001, Momentum: 0.0, Weight decay: 1e-4
+2025-11-18 19:43:46,744 - INFO - Using full batch gradient descent (batch size = entire dataset)
+2025-11-18 19:47:11,392 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 19:47:11,392 - INFO - [GD] Best Val IoU: 0.0337, Val Loss: 1.9210
+2025-11-18 19:47:11,392 - INFO - [GD] Epoch 1/50: Train Loss: 1.9099, Val Loss: 1.9210, Val IoU: 0.0337, Val Acc: 0.0948
+2025-11-18 19:50:30,125 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 19:50:30,125 - INFO - [GD] Best Val IoU: 0.0345, Val Loss: 1.9000
+2025-11-18 19:50:30,125 - INFO - [GD] Epoch 2/50: Train Loss: 1.9027, Val Loss: 1.9000, Val IoU: 0.0345, Val Acc: 0.1010
+2025-11-18 19:53:49,693 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 19:53:49,694 - INFO - [GD] Best Val IoU: 0.0364, Val Loss: 1.8841
+2025-11-18 19:53:49,694 - INFO - [GD] Epoch 3/50: Train Loss: 1.8954, Val Loss: 1.8841, Val IoU: 0.0364, Val Acc: 0.1103
+2025-11-18 19:57:02,927 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 19:57:02,928 - INFO - [GD] Best Val IoU: 0.0371, Val Loss: 1.8833
+2025-11-18 19:57:02,928 - INFO - [GD] Epoch 4/50: Train Loss: 1.8885, Val Loss: 1.8833, Val IoU: 0.0371, Val Acc: 0.1129
+2025-11-18 20:00:17,166 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:00:17,166 - INFO - [GD] Best Val IoU: 0.0372, Val Loss: 1.8777
+2025-11-18 20:00:17,167 - INFO - [GD] Epoch 5/50: Train Loss: 1.8816, Val Loss: 1.8777, Val IoU: 0.0372, Val Acc: 0.1134
+2025-11-18 20:04:31,920 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:04:31,920 - INFO - [GD] Best Val IoU: 0.0398, Val Loss: 1.8646
+2025-11-18 20:04:31,920 - INFO - [GD] Epoch 6/50: Train Loss: 1.8745, Val Loss: 1.8646, Val IoU: 0.0398, Val Acc: 0.1262
+2025-11-18 20:11:12,762 - INFO - [GD] Epoch 7/50: Train Loss: 1.8677, Val Loss: 1.8587, Val IoU: 0.0397, Val Acc: 0.1260
+2025-11-18 20:19:00,712 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:19:00,713 - INFO - [GD] Best Val IoU: 0.0417, Val Loss: 1.8521
+2025-11-18 20:19:00,713 - INFO - [GD] Epoch 8/50: Train Loss: 1.8607, Val Loss: 1.8521, Val IoU: 0.0417, Val Acc: 0.1355
+2025-11-18 20:26:51,533 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:26:51,533 - INFO - [GD] Best Val IoU: 0.0418, Val Loss: 1.8498
+2025-11-18 20:26:51,533 - INFO - [GD] Epoch 9/50: Train Loss: 1.8539, Val Loss: 1.8498, Val IoU: 0.0418, Val Acc: 0.1369
+2025-11-18 20:34:53,478 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:34:53,479 - INFO - [GD] Best Val IoU: 0.0425, Val Loss: 1.8496
+2025-11-18 20:34:53,479 - INFO - [GD] Epoch 10/50: Train Loss: 1.8473, Val Loss: 1.8496, Val IoU: 0.0425, Val Acc: 0.1382
+2025-11-18 20:42:52,635 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:42:52,636 - INFO - [GD] Best Val IoU: 0.0439, Val Loss: 1.8347
+2025-11-18 20:42:52,636 - INFO - [GD] Epoch 11/50: Train Loss: 1.8406, Val Loss: 1.8347, Val IoU: 0.0439, Val Acc: 0.1475
+2025-11-18 20:50:46,075 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:50:46,075 - INFO - [GD] Best Val IoU: 0.0465, Val Loss: 1.8232
+2025-11-18 20:50:46,075 - INFO - [GD] Epoch 12/50: Train Loss: 1.8338, Val Loss: 1.8232, Val IoU: 0.0465, Val Acc: 0.1605
+2025-11-18 20:58:48,961 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 20:58:48,961 - INFO - [GD] Best Val IoU: 0.0467, Val Loss: 1.8249
+2025-11-18 20:58:48,961 - INFO - [GD] Epoch 13/50: Train Loss: 1.8271, Val Loss: 1.8249, Val IoU: 0.0467, Val Acc: 0.1597
+2025-11-18 21:06:45,889 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:06:45,889 - INFO - [GD] Best Val IoU: 0.0470, Val Loss: 1.8223
+2025-11-18 21:06:45,889 - INFO - [GD] Epoch 14/50: Train Loss: 1.8205, Val Loss: 1.8223, Val IoU: 0.0470, Val Acc: 0.1621
+2025-11-18 21:14:43,692 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:14:43,693 - INFO - [GD] Best Val IoU: 0.0510, Val Loss: 1.8014
+2025-11-18 21:14:43,693 - INFO - [GD] Epoch 15/50: Train Loss: 1.8141, Val Loss: 1.8014, Val IoU: 0.0510, Val Acc: 0.1814
+2025-11-18 21:22:44,506 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:22:44,506 - INFO - [GD] Best Val IoU: 0.0511, Val Loss: 1.8020
+2025-11-18 21:22:44,506 - INFO - [GD] Epoch 16/50: Train Loss: 1.8075, Val Loss: 1.8020, Val IoU: 0.0511, Val Acc: 0.1832
+2025-11-18 21:30:43,817 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:30:43,817 - INFO - [GD] Best Val IoU: 0.0524, Val Loss: 1.7970
+2025-11-18 21:30:43,817 - INFO - [GD] Epoch 17/50: Train Loss: 1.8008, Val Loss: 1.7970, Val IoU: 0.0524, Val Acc: 0.1896
+2025-11-18 21:38:38,242 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:38:38,243 - INFO - [GD] Best Val IoU: 0.0536, Val Loss: 1.7923
+2025-11-18 21:38:38,243 - INFO - [GD] Epoch 18/50: Train Loss: 1.7945, Val Loss: 1.7923, Val IoU: 0.0536, Val Acc: 0.1961
+2025-11-18 21:46:37,736 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:46:37,736 - INFO - [GD] Best Val IoU: 0.0555, Val Loss: 1.7833
+2025-11-18 21:46:37,736 - INFO - [GD] Epoch 19/50: Train Loss: 1.7882, Val Loss: 1.7833, Val IoU: 0.0555, Val Acc: 0.2047
+2025-11-18 21:54:37,689 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 21:54:37,690 - INFO - [GD] Best Val IoU: 0.0608, Val Loss: 1.7608
+2025-11-18 21:54:37,690 - INFO - [GD] Epoch 20/50: Train Loss: 1.7819, Val Loss: 1.7608, Val IoU: 0.0608, Val Acc: 0.2309
+2025-11-18 22:02:29,538 - INFO - [GD] Epoch 21/50: Train Loss: 1.7753, Val Loss: 1.7664, Val IoU: 0.0595, Val Acc: 0.2250
+2025-11-18 22:10:29,807 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:10:29,807 - INFO - [GD] Best Val IoU: 0.0623, Val Loss: 1.7583
+2025-11-18 22:10:29,807 - INFO - [GD] Epoch 22/50: Train Loss: 1.7691, Val Loss: 1.7583, Val IoU: 0.0623, Val Acc: 0.2384
+2025-11-18 22:18:30,296 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:18:30,296 - INFO - [GD] Best Val IoU: 0.0631, Val Loss: 1.7554
+2025-11-18 22:18:30,296 - INFO - [GD] Epoch 23/50: Train Loss: 1.7627, Val Loss: 1.7554, Val IoU: 0.0631, Val Acc: 0.2426
+2025-11-18 22:26:26,898 - INFO - [GD] Epoch 24/50: Train Loss: 1.7566, Val Loss: 1.7619, Val IoU: 0.0622, Val Acc: 0.2379
+2025-11-18 22:34:22,030 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:34:22,030 - INFO - [GD] Best Val IoU: 0.0648, Val Loss: 1.7494
+2025-11-18 22:34:22,030 - INFO - [GD] Epoch 25/50: Train Loss: 1.7504, Val Loss: 1.7494, Val IoU: 0.0648, Val Acc: 0.2513
+2025-11-18 22:42:22,740 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:42:22,740 - INFO - [GD] Best Val IoU: 0.0666, Val Loss: 1.7471
+2025-11-18 22:42:22,740 - INFO - [GD] Epoch 26/50: Train Loss: 1.7441, Val Loss: 1.7471, Val IoU: 0.0666, Val Acc: 0.2600
+2025-11-18 22:50:19,194 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:50:19,194 - INFO - [GD] Best Val IoU: 0.0710, Val Loss: 1.7250
+2025-11-18 22:50:19,194 - INFO - [GD] Epoch 27/50: Train Loss: 1.7381, Val Loss: 1.7250, Val IoU: 0.0710, Val Acc: 0.2834
+2025-11-18 22:58:17,711 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 22:58:17,711 - INFO - [GD] Best Val IoU: 0.0711, Val Loss: 1.7257
+2025-11-18 22:58:17,711 - INFO - [GD] Epoch 28/50: Train Loss: 1.7319, Val Loss: 1.7257, Val IoU: 0.0711, Val Acc: 0.2839
+2025-11-18 23:06:18,741 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:06:18,742 - INFO - [GD] Best Val IoU: 0.0740, Val Loss: 1.7137
+2025-11-18 23:06:18,742 - INFO - [GD] Epoch 29/50: Train Loss: 1.7259, Val Loss: 1.7137, Val IoU: 0.0740, Val Acc: 0.2994
+2025-11-18 23:14:14,237 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:14:14,238 - INFO - [GD] Best Val IoU: 0.0763, Val Loss: 1.7076
+2025-11-18 23:14:14,238 - INFO - [GD] Epoch 30/50: Train Loss: 1.7197, Val Loss: 1.7076, Val IoU: 0.0763, Val Acc: 0.3111
+2025-11-18 23:22:14,479 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:22:14,480 - INFO - [GD] Best Val IoU: 0.0782, Val Loss: 1.6978
+2025-11-18 23:22:14,480 - INFO - [GD] Epoch 31/50: Train Loss: 1.7137, Val Loss: 1.6978, Val IoU: 0.0782, Val Acc: 0.3214
+2025-11-18 23:30:16,348 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:30:16,348 - INFO - [GD] Best Val IoU: 0.0790, Val Loss: 1.7001
+2025-11-18 23:30:16,348 - INFO - [GD] Epoch 32/50: Train Loss: 1.7078, Val Loss: 1.7001, Val IoU: 0.0790, Val Acc: 0.3241
+2025-11-18 23:38:09,259 - INFO - [GD] Epoch 33/50: Train Loss: 1.7019, Val Loss: 1.6985, Val IoU: 0.0787, Val Acc: 0.3228
+2025-11-18 23:46:09,357 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:46:09,357 - INFO - [GD] Best Val IoU: 0.0834, Val Loss: 1.6851
+2025-11-18 23:46:09,357 - INFO - [GD] Epoch 34/50: Train Loss: 1.6959, Val Loss: 1.6851, Val IoU: 0.0834, Val Acc: 0.3472
+2025-11-18 23:54:11,716 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-18 23:54:11,716 - INFO - [GD] Best Val IoU: 0.0849, Val Loss: 1.6809
+2025-11-18 23:54:11,716 - INFO - [GD] Epoch 35/50: Train Loss: 1.6899, Val Loss: 1.6809, Val IoU: 0.0849, Val Acc: 0.3546
+2025-11-19 00:02:03,998 - INFO - [GD] Epoch 36/50: Train Loss: 1.6839, Val Loss: 1.6861, Val IoU: 0.0827, Val Acc: 0.3439
+2025-11-19 00:10:06,032 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 00:10:06,032 - INFO - [GD] Best Val IoU: 0.0871, Val Loss: 1.6670
+2025-11-19 00:10:06,032 - INFO - [GD] Epoch 37/50: Train Loss: 1.6781, Val Loss: 1.6670, Val IoU: 0.0871, Val Acc: 0.3677
+2025-11-19 00:18:10,378 - INFO - [GD] Epoch 38/50: Train Loss: 1.6723, Val Loss: 1.6694, Val IoU: 0.0871, Val Acc: 0.3673
+2025-11-19 00:26:03,975 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 00:26:03,975 - INFO - [GD] Best Val IoU: 0.0879, Val Loss: 1.6648
+2025-11-19 00:26:03,975 - INFO - [GD] Epoch 39/50: Train Loss: 1.6665, Val Loss: 1.6648, Val IoU: 0.0879, Val Acc: 0.3722
+2025-11-19 00:34:07,940 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 00:34:07,940 - INFO - [GD] Best Val IoU: 0.0926, Val Loss: 1.6499
+2025-11-19 00:34:07,940 - INFO - [GD] Epoch 40/50: Train Loss: 1.6608, Val Loss: 1.6499, Val IoU: 0.0926, Val Acc: 0.3959
+2025-11-19 00:42:11,954 - INFO - [GD] Epoch 41/50: Train Loss: 1.6548, Val Loss: 1.6560, Val IoU: 0.0907, Val Acc: 0.3853
+2025-11-19 00:50:05,893 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 00:50:05,894 - INFO - [GD] Best Val IoU: 0.0930, Val Loss: 1.6471
+2025-11-19 00:50:05,894 - INFO - [GD] Epoch 42/50: Train Loss: 1.6493, Val Loss: 1.6471, Val IoU: 0.0930, Val Acc: 0.3988
+2025-11-19 00:58:08,340 - INFO - [GD] Epoch 43/50: Train Loss: 1.6436, Val Loss: 1.6503, Val IoU: 0.0927, Val Acc: 0.3957
+2025-11-19 01:06:06,238 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 01:06:06,238 - INFO - [GD] Best Val IoU: 0.0984, Val Loss: 1.6308
+2025-11-19 01:06:06,238 - INFO - [GD] Epoch 44/50: Train Loss: 1.6379, Val Loss: 1.6308, Val IoU: 0.0984, Val Acc: 0.4258
+2025-11-19 01:14:01,425 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 01:14:01,426 - INFO - [GD] Best Val IoU: 0.1003, Val Loss: 1.6214
+2025-11-19 01:14:01,426 - INFO - [GD] Epoch 45/50: Train Loss: 1.6322, Val Loss: 1.6214, Val IoU: 0.1003, Val Acc: 0.4369
+2025-11-19 01:22:03,046 - INFO - [GD] Epoch 46/50: Train Loss: 1.6266, Val Loss: 1.6252, Val IoU: 0.0988, Val Acc: 0.4292
+2025-11-19 01:30:04,223 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 01:30:04,223 - INFO - [GD] Best Val IoU: 0.1012, Val Loss: 1.6166
+2025-11-19 01:30:04,223 - INFO - [GD] Epoch 47/50: Train Loss: 1.6209, Val Loss: 1.6166, Val IoU: 0.1012, Val Acc: 0.4421
+2025-11-19 01:37:56,072 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 01:37:56,072 - INFO - [GD] Best Val IoU: 0.1025, Val Loss: 1.6122
+2025-11-19 01:37:56,072 - INFO - [GD] Epoch 48/50: Train Loss: 1.6155, Val Loss: 1.6122, Val IoU: 0.1025, Val Acc: 0.4491
+2025-11-19 01:45:57,388 - INFO - [GD] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_GD/best_model.pth
+2025-11-19 01:45:57,389 - INFO - [GD] Best Val IoU: 0.1091, Val Loss: 1.5890
+2025-11-19 01:45:57,389 - INFO - [GD] Epoch 49/50: Train Loss: 1.6098, Val Loss: 1.5890, Val IoU: 0.1091, Val Acc: 0.4845
+2025-11-19 01:53:56,797 - INFO - [GD] Epoch 50/50: Train Loss: 1.6043, Val Loss: 1.5943, Val IoU: 0.1064, Val Acc: 0.4710
+2025-11-19 01:53:56,798 - INFO - [GD] Training completed. Best validation IoU: 0.1091
+2025-11-19 01:53:59,980 - INFO - Saved training curves: /mnt/nvme1/suyuejiao/egohos_split_data/image/gd_training_curves.png
+2025-11-19 01:53:59,981 - INFO - Saved training results to: /mnt/nvme1/suyuejiao/egohos_split_data/image/gd_training_results.json
+2025-11-19 01:53:59,981 - INFO - 
+================================================================================
+2025-11-19 01:53:59,981 - INFO - Final Training Results (GD Optimizer - Full Batch):
+2025-11-19 01:53:59,981 - INFO - ================================================================================
+2025-11-19 01:53:59,981 - INFO - Final Validation IoU: 0.1064
+2025-11-19 01:53:59,981 - INFO - Final Validation Accuracy: 0.4710
+2025-11-19 01:53:59,981 - INFO - Final Validation Loss: 1.5943
+2025-11-19 01:53:59,981 - INFO - ================================================================================
+2025-11-19 01:53:59,981 - INFO - 
+Training with GD optimizer (Full Batch) completed! All results saved.

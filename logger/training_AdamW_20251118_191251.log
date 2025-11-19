@@ -1,0 +1,121 @@
+2025-11-18 19:12:51,311 - INFO - Logging initialized for AdamW optimizer
+2025-11-18 19:12:51,311 - INFO - Log file: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_AdamW_20251118_191251.log
+2025-11-18 19:12:51,311 - INFO - Starting training process with AdamW optimizer
+2025-11-18 19:12:51,311 - INFO - Log file successfully created at specified location: /mnt/nvme1/suyuejiao/egohos_split_data/logger/training_AdamW_20251118_191251.log
+2025-11-18 19:12:51,369 - INFO - Found 8993 valid image-mask pairs
+2025-11-18 19:12:51,377 - INFO - Found 1126 valid image-mask pairs
+2025-11-18 19:12:51,377 - INFO - Training samples: 8993
+2025-11-18 19:12:51,377 - INFO - Validation samples: 1126
+2025-11-18 19:12:51,377 - INFO - 
+============================================================
+2025-11-18 19:12:51,377 - INFO - Training with AdamW optimizer
+2025-11-18 19:12:51,377 - INFO - ============================================================
+2025-11-18 19:12:51,639 - INFO - Using device: cuda
+2025-11-18 19:12:51,639 - INFO - Training with AdamW optimizer
+2025-11-18 19:12:53,330 - INFO - Starting training with AdamW optimizer for 50 epochs
+2025-11-18 19:12:53,331 - INFO - Learning rate: 0.001, Weight decay: 1e-4
+2025-11-18 19:18:10,920 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:18:10,921 - INFO - [AdamW] Best Val IoU: 0.2798, Val Loss: 0.4805
+2025-11-18 19:18:10,921 - INFO - [AdamW] Epoch 1/50: Train Loss: 0.5452, Val Loss: 0.4805, Val IoU: 0.2798, Val Acc: 0.8663
+2025-11-18 19:25:30,225 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:25:30,226 - INFO - [AdamW] Best Val IoU: 0.3300, Val Loss: 0.3855
+2025-11-18 19:25:30,226 - INFO - [AdamW] Epoch 2/50: Train Loss: 0.4034, Val Loss: 0.3855, Val IoU: 0.3300, Val Acc: 0.8908
+2025-11-18 19:33:00,512 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:33:00,512 - INFO - [AdamW] Best Val IoU: 0.3824, Val Loss: 0.3423
+2025-11-18 19:33:00,512 - INFO - [AdamW] Epoch 3/50: Train Loss: 0.3561, Val Loss: 0.3423, Val IoU: 0.3824, Val Acc: 0.9043
+2025-11-18 19:40:24,880 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:40:24,880 - INFO - [AdamW] Best Val IoU: 0.4023, Val Loss: 0.3170
+2025-11-18 19:40:24,880 - INFO - [AdamW] Epoch 4/50: Train Loss: 0.3262, Val Loss: 0.3170, Val IoU: 0.4023, Val Acc: 0.9102
+2025-11-18 19:47:55,823 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:47:55,824 - INFO - [AdamW] Best Val IoU: 0.4150, Val Loss: 0.3134
+2025-11-18 19:47:55,824 - INFO - [AdamW] Epoch 5/50: Train Loss: 0.3041, Val Loss: 0.3134, Val IoU: 0.4150, Val Acc: 0.9106
+2025-11-18 19:55:20,373 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 19:55:20,374 - INFO - [AdamW] Best Val IoU: 0.4243, Val Loss: 0.3128
+2025-11-18 19:55:20,374 - INFO - [AdamW] Epoch 6/50: Train Loss: 0.2872, Val Loss: 0.3128, Val IoU: 0.4243, Val Acc: 0.9096
+2025-11-18 20:02:50,307 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 20:02:50,308 - INFO - [AdamW] Best Val IoU: 0.4413, Val Loss: 0.2803
+2025-11-18 20:02:50,308 - INFO - [AdamW] Epoch 7/50: Train Loss: 0.2713, Val Loss: 0.2803, Val IoU: 0.4413, Val Acc: 0.9197
+2025-11-18 20:10:24,444 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 20:10:24,445 - INFO - [AdamW] Best Val IoU: 0.4618, Val Loss: 0.2678
+2025-11-18 20:10:24,445 - INFO - [AdamW] Epoch 8/50: Train Loss: 0.2573, Val Loss: 0.2678, Val IoU: 0.4618, Val Acc: 0.9233
+2025-11-18 20:20:42,468 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 20:20:42,468 - INFO - [AdamW] Best Val IoU: 0.4814, Val Loss: 0.2593
+2025-11-18 20:20:42,469 - INFO - [AdamW] Epoch 9/50: Train Loss: 0.2436, Val Loss: 0.2593, Val IoU: 0.4814, Val Acc: 0.9249
+2025-11-18 20:34:45,878 - INFO - [AdamW] Epoch 10/50: Train Loss: 0.2307, Val Loss: 0.2585, Val IoU: 0.4794, Val Acc: 0.9275
+2025-11-18 20:48:56,274 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 20:48:56,274 - INFO - [AdamW] Best Val IoU: 0.5008, Val Loss: 0.2459
+2025-11-18 20:48:56,274 - INFO - [AdamW] Epoch 11/50: Train Loss: 0.2172, Val Loss: 0.2459, Val IoU: 0.5008, Val Acc: 0.9279
+2025-11-18 21:03:04,968 - INFO - [AdamW] Epoch 12/50: Train Loss: 0.2033, Val Loss: 0.2656, Val IoU: 0.4767, Val Acc: 0.9233
+2025-11-18 21:17:15,057 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 21:17:15,057 - INFO - [AdamW] Best Val IoU: 0.5130, Val Loss: 0.2411
+2025-11-18 21:17:15,057 - INFO - [AdamW] Epoch 13/50: Train Loss: 0.1868, Val Loss: 0.2411, Val IoU: 0.5130, Val Acc: 0.9305
+2025-11-18 21:31:22,772 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 21:31:22,773 - INFO - [AdamW] Best Val IoU: 0.5131, Val Loss: 0.2546
+2025-11-18 21:31:22,773 - INFO - [AdamW] Epoch 14/50: Train Loss: 0.1697, Val Loss: 0.2546, Val IoU: 0.5131, Val Acc: 0.9281
+2025-11-18 21:45:31,275 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 21:45:31,275 - INFO - [AdamW] Best Val IoU: 0.5258, Val Loss: 0.2693
+2025-11-18 21:45:31,275 - INFO - [AdamW] Epoch 15/50: Train Loss: 0.1515, Val Loss: 0.2693, Val IoU: 0.5258, Val Acc: 0.9327
+2025-11-18 21:59:43,691 - INFO - [AdamW] Epoch 16/50: Train Loss: 0.1333, Val Loss: 0.2789, Val IoU: 0.5241, Val Acc: 0.9291
+2025-11-18 22:13:53,154 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 22:13:53,154 - INFO - [AdamW] Best Val IoU: 0.5267, Val Loss: 0.2837
+2025-11-18 22:13:53,155 - INFO - [AdamW] Epoch 17/50: Train Loss: 0.1157, Val Loss: 0.2837, Val IoU: 0.5267, Val Acc: 0.9283
+2025-11-18 22:28:02,549 - INFO - [AdamW] Epoch 18/50: Train Loss: 0.1013, Val Loss: 0.2950, Val IoU: 0.5067, Val Acc: 0.9265
+2025-11-18 22:42:14,654 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 22:42:14,655 - INFO - [AdamW] Best Val IoU: 0.5293, Val Loss: 0.3016
+2025-11-18 22:42:14,655 - INFO - [AdamW] Epoch 19/50: Train Loss: 0.0886, Val Loss: 0.3016, Val IoU: 0.5293, Val Acc: 0.9277
+2025-11-18 22:56:24,777 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 22:56:24,777 - INFO - [AdamW] Best Val IoU: 0.5430, Val Loss: 0.3077
+2025-11-18 22:56:24,777 - INFO - [AdamW] Epoch 20/50: Train Loss: 0.0635, Val Loss: 0.3077, Val IoU: 0.5430, Val Acc: 0.9334
+2025-11-18 23:10:35,272 - INFO - [AdamW] Epoch 21/50: Train Loss: 0.0545, Val Loss: 0.3331, Val IoU: 0.5413, Val Acc: 0.9332
+2025-11-18 23:24:48,739 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 23:24:48,739 - INFO - [AdamW] Best Val IoU: 0.5436, Val Loss: 0.3426
+2025-11-18 23:24:48,739 - INFO - [AdamW] Epoch 22/50: Train Loss: 0.0505, Val Loss: 0.3426, Val IoU: 0.5436, Val Acc: 0.9339
+2025-11-18 23:38:58,933 - INFO - [AdamW] Epoch 23/50: Train Loss: 0.0454, Val Loss: 0.3598, Val IoU: 0.5412, Val Acc: 0.9359
+2025-11-18 23:53:10,565 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-18 23:53:10,565 - INFO - [AdamW] Best Val IoU: 0.5443, Val Loss: 0.3689
+2025-11-18 23:53:10,565 - INFO - [AdamW] Epoch 24/50: Train Loss: 0.0433, Val Loss: 0.3689, Val IoU: 0.5443, Val Acc: 0.9337
+2025-11-19 00:07:20,892 - INFO - [AdamW] Epoch 25/50: Train Loss: 0.0400, Val Loss: 0.4196, Val IoU: 0.5377, Val Acc: 0.9351
+2025-11-19 00:21:33,261 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-19 00:21:33,262 - INFO - [AdamW] Best Val IoU: 0.5466, Val Loss: 0.3832
+2025-11-19 00:21:33,262 - INFO - [AdamW] Epoch 26/50: Train Loss: 0.0361, Val Loss: 0.3832, Val IoU: 0.5466, Val Acc: 0.9360
+2025-11-19 00:35:44,137 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-19 00:35:44,137 - INFO - [AdamW] Best Val IoU: 0.5514, Val Loss: 0.3949
+2025-11-19 00:35:44,137 - INFO - [AdamW] Epoch 27/50: Train Loss: 0.0302, Val Loss: 0.3949, Val IoU: 0.5514, Val Acc: 0.9364
+2025-11-19 00:49:53,493 - INFO - [AdamW] Epoch 28/50: Train Loss: 0.0287, Val Loss: 0.4139, Val IoU: 0.5485, Val Acc: 0.9354
+2025-11-19 01:04:06,775 - INFO - [AdamW] Epoch 29/50: Train Loss: 0.0281, Val Loss: 0.4291, Val IoU: 0.5487, Val Acc: 0.9364
+2025-11-19 01:18:17,749 - INFO - [AdamW] Epoch 30/50: Train Loss: 0.0265, Val Loss: 0.4488, Val IoU: 0.5458, Val Acc: 0.9355
+2025-11-19 01:32:29,421 - INFO - [AdamW] Epoch 31/50: Train Loss: 0.0288, Val Loss: 0.4536, Val IoU: 0.5497, Val Acc: 0.9357
+2025-11-19 01:46:41,250 - INFO - [AdamW] Saved best model: /mnt/nvme1/suyuejiao/egohos_split_data/ckpt_AdamW/best_model.pth
+2025-11-19 01:46:41,251 - INFO - [AdamW] Best Val IoU: 0.5515, Val Loss: 0.4187
+2025-11-19 01:46:41,251 - INFO - [AdamW] Epoch 32/50: Train Loss: 0.0255, Val Loss: 0.4187, Val IoU: 0.5515, Val Acc: 0.9367
+2025-11-19 02:00:49,762 - INFO - [AdamW] Epoch 33/50: Train Loss: 0.0230, Val Loss: 0.4358, Val IoU: 0.5498, Val Acc: 0.9363
+2025-11-19 02:14:57,157 - INFO - [AdamW] Epoch 34/50: Train Loss: 0.0223, Val Loss: 0.4434, Val IoU: 0.5514, Val Acc: 0.9363
+2025-11-19 02:29:03,910 - INFO - [AdamW] Epoch 35/50: Train Loss: 0.0220, Val Loss: 0.4617, Val IoU: 0.5481, Val Acc: 0.9367
+2025-11-19 02:43:13,093 - INFO - [AdamW] Epoch 36/50: Train Loss: 0.0214, Val Loss: 0.4716, Val IoU: 0.5488, Val Acc: 0.9359
+2025-11-19 02:57:23,946 - INFO - [AdamW] Epoch 37/50: Train Loss: 0.0210, Val Loss: 0.4904, Val IoU: 0.5458, Val Acc: 0.9361
+2025-11-19 03:11:34,669 - INFO - [AdamW] Epoch 38/50: Train Loss: 0.0202, Val Loss: 0.4924, Val IoU: 0.5485, Val Acc: 0.9364
+2025-11-19 03:25:43,936 - INFO - [AdamW] Epoch 39/50: Train Loss: 0.0197, Val Loss: 0.4983, Val IoU: 0.5461, Val Acc: 0.9364
+2025-11-19 03:39:52,797 - INFO - [AdamW] Epoch 40/50: Train Loss: 0.0194, Val Loss: 0.4989, Val IoU: 0.5484, Val Acc: 0.9363
+2025-11-19 03:54:01,546 - INFO - [AdamW] Epoch 41/50: Train Loss: 0.0192, Val Loss: 0.5174, Val IoU: 0.5469, Val Acc: 0.9361
+2025-11-19 04:08:10,644 - INFO - [AdamW] Epoch 42/50: Train Loss: 0.0188, Val Loss: 0.5175, Val IoU: 0.5476, Val Acc: 0.9364
+2025-11-19 04:22:17,853 - INFO - [AdamW] Epoch 43/50: Train Loss: 0.0186, Val Loss: 0.5400, Val IoU: 0.5462, Val Acc: 0.9362
+2025-11-19 04:36:26,127 - INFO - [AdamW] Epoch 44/50: Train Loss: 0.0183, Val Loss: 0.5350, Val IoU: 0.5468, Val Acc: 0.9364
+2025-11-19 04:50:34,664 - INFO - [AdamW] Epoch 45/50: Train Loss: 0.0181, Val Loss: 0.5434, Val IoU: 0.5449, Val Acc: 0.9361
+2025-11-19 05:04:43,698 - INFO - [AdamW] Epoch 46/50: Train Loss: 0.0179, Val Loss: 0.5291, Val IoU: 0.5485, Val Acc: 0.9362
+2025-11-19 05:18:02,942 - INFO - [AdamW] Epoch 47/50: Train Loss: 0.0177, Val Loss: 0.5330, Val IoU: 0.5474, Val Acc: 0.9361
+2025-11-19 05:29:59,218 - INFO - [AdamW] Epoch 48/50: Train Loss: 0.0177, Val Loss: 0.5447, Val IoU: 0.5449, Val Acc: 0.9361
+2025-11-19 05:41:54,833 - INFO - [AdamW] Epoch 49/50: Train Loss: 0.0176, Val Loss: 0.5499, Val IoU: 0.5458, Val Acc: 0.9360
+2025-11-19 05:53:50,650 - INFO - [AdamW] Epoch 50/50: Train Loss: 0.0174, Val Loss: 0.5464, Val IoU: 0.5455, Val Acc: 0.9364
+2025-11-19 05:53:50,651 - INFO - [AdamW] Training completed. Best validation IoU: 0.5515
+2025-11-19 05:53:53,660 - INFO - Saved training curves: /mnt/nvme1/suyuejiao/egohos_split_data/image/adamw_training_curves.png
+2025-11-19 05:53:53,661 - INFO - Saved training results to: /mnt/nvme1/suyuejiao/egohos_split_data/image/adamw_training_results.json
+2025-11-19 05:53:53,661 - INFO - 
+================================================================================
+2025-11-19 05:53:53,661 - INFO - Final Training Results (AdamW Optimizer):
+2025-11-19 05:53:53,662 - INFO - ================================================================================
+2025-11-19 05:53:53,662 - INFO - Final Validation IoU: 0.5455
+2025-11-19 05:53:53,662 - INFO - Final Validation Accuracy: 0.9364
+2025-11-19 05:53:53,662 - INFO - Final Validation Loss: 0.5464
+2025-11-19 05:53:53,662 - INFO - ================================================================================
+2025-11-19 05:53:53,662 - INFO - 
+Training with AdamW optimizer completed! All results saved.
